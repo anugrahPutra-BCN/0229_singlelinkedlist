@@ -1,9 +1,4 @@
 #include <iostream>
+#include <string.h>
 using namespace std;
-
-struct Node
-{
-    int notMhs;
-    Node *next;
-};
 
