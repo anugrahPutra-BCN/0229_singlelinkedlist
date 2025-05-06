@@ -55,4 +55,15 @@ public:
             current = current->next;
          
         }
-    
+    }
+        bool listEmpty()
+        {
+            return (START == NULL);
+        }
+
+    bool search(int nim, Node **previous, Node **current)
+    {
+        *previous = START;
+        *current = START;
+
+        
