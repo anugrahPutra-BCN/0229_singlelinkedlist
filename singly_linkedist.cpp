@@ -40,3 +40,7 @@ public:
         }
     
 
+       Node  *previous = START; 
+       Node *current = START;
+
+       
